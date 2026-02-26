@@ -15,10 +15,10 @@ public interface ClienteService {
 
 	Cliente buscarPorId(Long id);
 
-	void inserir(Cliente cliente);
+	void inserirCliente(Cliente cliente);
 
-	void atualizar(Long id, Cliente cliente);
+	void atualizarCliente(Long id, Cliente cliente);
 
-	void deletar(Long id);
+	void deletarCliente(Long id);
 
 }
